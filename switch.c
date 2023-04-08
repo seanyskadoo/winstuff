@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+//instead of writing many if else statements you can use the switch statement
+int day = 4;
+
+switch (day)
+{
+case 1:
+    printf("monday");
+        break;
+case 2:
+    printf("tuesday");
+        break;
+case 3:
+    printf("wednesday");
+        break;
+case 4:
+    printf("thursday");
+        break;
+case 5:
+    printf("friday");
+        break;
+case 6:
+    printf("saturday");
+        break;
+case 7:
+    printf("sunday");
+        break;
+//default specifies code to be run if there is no case match
+default:
+    printf("looking forward to the weekend");
+}
+
+  return 0;
+
+}
